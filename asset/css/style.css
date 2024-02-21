@@ -1,0 +1,172 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,200;9..40,300;9..40,400&family=Montserrat&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Dm Sans;
+}
+
+/* general css  */
+
+a {
+  text-decoration: none;
+}
+
+#formError {
+  color: red;
+}
+
+.fb_flex_new,
+.fb_blue_flex,
+.fb_menu_flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.fb_flex_new {
+  margin-bottom: 0rem !important;
+  flex-wrap: wrap !important;
+  gap: 1rem !important;
+}
+
+.fb_font {
+  color: #222;
+  font-family: DM Sans;
+  font-size: 0.875rem;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.02563rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+.fb_container {
+  margin: 0 auto;
+  padding: 1rem 6.25rem;
+}
+
+ul {
+  margin-bottom: 0;
+}
+
+p {
+  margin-bottom: 0;
+}
+
+.list_banner img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.list_heading {
+  font-size: 1.75rem;
+  font-weight: 700;
+  margin-left: 6rem;
+  text-transform: capitalize;
+  margin-top: 3rem;
+}
+
+.red_color {
+  color: #fe5c4d;
+}
+
+.list_bottom {
+  margin-bottom: 37px;
+}
+
+.list_card img {
+  height: 243px;
+  width: 100%;
+  border: 1px solid #e6e6e6;
+  border-radius: 16px;
+  transition: transform 0.5s ease, box-shadow 0.5s ease; /* Smooth transition for effects */
+box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Normal box shadow */
+}
+
+.list_card img:hover {
+  transition: all 0.5s ease-in-out;
+  transform: scale(1.05); 
+  cursor: pointer;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.list_wrapper {
+  margin: 6rem;
+  margin-top: 2rem;
+}
+
+.list_card {
+  position: relative;
+}
+
+.list_detail {
+  position: absolute;
+  left: 20px;
+  bottom: 20px;
+}
+
+.list_detail p:first-child {
+  font-weight: 700;
+  color: white;
+  margin-bottom: 0;
+  font-size: 2rem;
+}
+.list_detail p:last-child {
+  font-weight: 700;
+  color: white;
+  margin-bottom: 0;
+  font-size: 1rem;
+}
+
+.list_star{
+  margin-top: 0.8rem;
+}
+
+.star_count{
+  font-weight: 600;
+  margin-right: 0.5rem;
+}
+
+.list_star p{
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.list_star p img{
+  margin-right: 0.5rem;
+}
+
+.rs_hour{
+  font-weight: 600;
+}
+
+.rs_hour span{
+  margin-left: 1rem;
+  color:#fe5c4d;
+}
+
+.list_para{
+  height: 4rem;
+  line-height: normal;
+  width: 100%;
+}
+
+
+@media only screen and (max-width: 650px) {
+  .list_heading {
+    margin-left: 1rem;
+  }
+  .list_wrapper {
+    margin: 1rem;
+    margin-top: 2rem;
+  }
+}
